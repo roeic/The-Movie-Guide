@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/choice_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/choice_frag_back"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="50dp"
+        android:background="@drawable/choice_frag_back"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:fontFamily="serif"
+            android:text="It's your choice now! "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:text="Votes"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/choice_fragment_vote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_border"
+                android:hint=" Greater then "
+                android:inputType="number"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:imeOptions="actionDone"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:text="Rating"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+            <EditText
+                android:id="@+id/choice_fragment_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_border"
+                android:hint=" Greater then "
+                android:inputType="numberDecimal"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:imeOptions="actionDone"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:text="Release year"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/choice_fragment_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_border"
+                android:hint=" Year "
+                android:inputType="number"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:imeOptions="actionDone"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/choice_fragment_confirm_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="confirm"
+                android:layout_margin="10dp"
+                android:background="@drawable/shadow_btn"
+                />
+
+            <Button
+                android:id="@+id/choice_fragment_cancel_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cancel"
+                android:layout_margin="10dp"
+                android:background="@drawable/shadow_btn"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

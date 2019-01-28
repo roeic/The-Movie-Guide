@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_back"
+    >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Lists.MoviesActivity"
+
+        >
+
+        <include
+            android:id="@+id/action_bar_main"
+            layout="@layout/action_bar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/category_playing_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_border"
+                android:onClick="onCategorySelected"
+                android:padding="10dp"
+                android:text="Playing now"
+                android:textColor="@color/white"
+                app:spinning_bar_color="@color/category_button_spin_animation"
+                app:spinning_bar_padding="@dimen/spinind_bar_pad"
+                app:spinning_bar_width="@dimen/spinind_bar_width"
+                app:initialCornerAngle="10dp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:shadowRadius="3"
+                android:shadowColor="@color/category_button_shadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+
+                />
+
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/category_this_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_border"
+                android:onClick="onCategorySelected"
+                android:padding="10dp"
+                android:text="This Month"
+                android:textColor="@color/white"
+                app:spinning_bar_color="@color/category_button_spin_animation"
+                app:spinning_bar_padding="@dimen/spinind_bar_pad"
+                app:spinning_bar_width="@dimen/spinind_bar_width"
+                app:initialCornerAngle="10dp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:shadowRadius="3"
+                android:shadowColor="@color/category_button_shadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+
+
+
+                />
+
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/category_next_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_border"
+                android:onClick="onCategorySelected"
+                android:padding="10dp"
+                android:text="Next Month"
+                android:textColor="@color/white"
+                app:spinning_bar_color="@color/category_button_spin_animation"
+                app:spinning_bar_padding="@dimen/spinind_bar_pad"
+                app:spinning_bar_width="@dimen/spinind_bar_width"
+                app:initialCornerAngle="10dp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:shadowRadius="3"
+                android:shadowColor="@color/category_button_shadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/category_best_2018"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_border"
+                android:onClick="onCategorySelected"
+                android:padding="15dp"
+                android:text="Best Of 2018"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:spinning_bar_color="@color/category_button_spin_animation"
+                app:spinning_bar_padding="@dimen/spinind_bar_pad"
+                app:spinning_bar_width="@dimen/spinind_bar_width"
+                app:initialCornerAngle="10dp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:shadowRadius="3"
+                android:shadowColor="@color/category_button_shadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+
+
+
+                />
+
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/category_best_2017"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_border"
+                android:onClick="onCategorySelected"
+                android:padding="15dp"
+                android:text="Best Of 2017"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:spinning_bar_color="@color/category_button_spin_animation"
+                app:spinning_bar_padding="@dimen/spinind_bar_pad"
+                app:spinning_bar_width="@dimen/spinind_bar_width"
+                app:initialCornerAngle="10dp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:shadowRadius="3"
+                android:shadowColor="@color/category_button_shadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+
+                />
+        </LinearLayout>
+
+        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+            android:id="@+id/category_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/button_border"
+            android:onClick="onCategorySelected"
+            android:padding="10dp"
+            android:text="Customize your own search"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:spinning_bar_color="@color/category_button_spin_animation"
+            app:spinning_bar_padding="@dimen/spinind_bar_pad"
+            app:spinning_bar_width="@dimen/spinind_bar_width"
+            app:initialCornerAngle="10dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:shadowRadius="3"
+            android:shadowColor="@color/category_button_shadow"
+            android:shadowDx="3"
+            android:shadowDy="3"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/category_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/list_above_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:shadowRadius="5"
+            android:shadowColor="@color/list_above_shadow"
+            android:shadowDx="3"
+            android:shadowDy="3"
+
+
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/main_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:src="@drawable/main_img" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/main_list_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="action_bar_back">#89454240</color>
+
+
+    <color name="main_back_start">#D8C8BD</color>
+    <color name="main_back_end">#FDFCFC</color>
+
+
+
+
+    <color name="main_list_back">#14FFE3BA</color>
+    <color name="main_list_title">#09090a</color>
+
+    <color name="category_button_strat">#43403c</color>
+    <color name="category_button_end">#96857c</color>
+    <color name="category_button_spin_animation">#d9802c</color>
+    <color name="category_button_border">#080808</color>
+    <color name="category_button_done">#a9611e</color>
+    <color name="category_button_shadow">#f9f3ca</color>
+
+    <color name="list_above_text">#060606</color>
+    <color name="list_above_shadow">#f99f72</color>
+
+
+    <color name="choice_frag_back">#D3000000</color>
+    <color name="choice_frag_main1">#43403c</color>
+
+
+    <color name="details_fragment_back">#E7E7E7</color>
+
+
+
+    <color name="choice_frag_main2">#96857c</color>
+
+
+
+
+
+
+
+    <color name="borderColor">#b3000000</color>
+    <color name="black">#000000</color>
+    <color name="blue">#727aab</color>
+    <color name="white">#ffffff</color>
+    <color name="transpert">#00ffffff</color>
+</resources>
