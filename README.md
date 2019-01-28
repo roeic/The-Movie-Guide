@@ -3,7 +3,11 @@
 
 
 <p> For each movie there is</p>
-
+<p float="left">
+  <img src="/screen1.jpg" width="100" />
+  <img src="/screen1.jpg" width="100" /> 
+  <img src="/screen1.jpg" width="100" />
+</p>
 
 <div style="float: left">
         <img src="screen1.jpg" width="100" height="100"   >
