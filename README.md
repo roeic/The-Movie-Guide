@@ -6,12 +6,12 @@
 
 
 <div style="float: left">
-        <img src="screen1.jpg" width="250" height="400"   >
+        <img src="screen1.jpg" width="100" height="100"   >
 </div>
 <div style="float: right">
-        <img src="screen1.jpg" width="250" height="400"   >
+        <img src="screen1.jpg" width="100" height="100"   >
 </div>
 <div style="float: left">
-        <img src="screen1.jpg" width="250" height="400"   >
+        <img src="screen1.jpg" width="100" height="100"   >
 </div>
 
