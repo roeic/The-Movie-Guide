@@ -8,7 +8,7 @@
 <div style="float: left">
         <img src="screen1.jpg" width="250" height="400"   >
 </div>
-<div style="float: left">
+<div style="float: right">
         <img src="screen1.jpg" width="250" height="400"   >
 </div>
 <div style="float: left">
