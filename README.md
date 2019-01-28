@@ -5,8 +5,13 @@
 <p> For each movie there is</p>
 
 
+<div style="float: left">
+        <img src="screen1.jpg" width="250" height="400"   >
+</div>
+<div style="float: left">
+        <img src="screen1.jpg" width="250" height="400"   >
+</div>
+<div style="float: left">
+        <img src="screen1.jpg" width="250" height="400"   >
+</div>
 
-<img src="screen1.jpg" width="250" height="400" style="float: left"  >
-<img src="screen2.jpg" width="250" height="400" style="float: left"  >
-<img src="screen3.jpg" width="250" height="400" style="float: left"  >
-<img src="screen4.jpg" width="250" height="400" style="float: left"  >
