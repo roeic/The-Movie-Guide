@@ -1,5 +1,5 @@
 <h1>The Movie guide</h1>
-<h2>This app show lists of movies in serval categories and from custom parametors.</h2>
+<h2>This app show lists of movies in serval categories and from custom parameters.</h2>
 
 <h2> For each movie there is a details screen with the option of leaving comments and seeing or sharing the trailer </h2>
 
